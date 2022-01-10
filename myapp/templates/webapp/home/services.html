@@ -1,0 +1,563 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+        <title>Numbersniff</title>
+        <link rel="shortcut icon" type="" href="static/new/home/img/icon.png" />
+
+
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="static/new/home/css/footer-section.css">
+    <link rel="Stylesheet" href="static/new/home/css/servic.css"/>
+    <link rel="Stylesheet" href="static/new/home/css/hero slider.css"/>
+    <link rel="Stylesheet" href="static/new/home/css/center.css"  type="text/css" />
+
+
+
+
+
+
+    <!-- hero links start -->
+     <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css'>
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'><link rel="stylesheet" href="./style.css">
+     <!-- partial -->
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+     <!-- hero links end -->
+
+
+
+
+
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/><link rel="stylesheet" href="./style.css">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"><link rel="stylesheet" href="./style.css">
+
+
+
+
+
+
+</head>
+
+
+
+
+
+<body>
+
+<!-- start of nav-bar -->
+<header>
+    <div class="flex">
+      <div class="logo">
+          <a class="navbar-brand" href="{% url 'myapp:home' %}">NumberSniff</a>
+      </div>
+
+      <nav>
+        <button id="nav-toggle" class="hamburger-menu">
+          <span class="strip"></span>
+          <span class="strip"></span>
+          <span class="strip"></span>
+        </button>
+        <ul id="nav-menu-container">
+          <li><a href="{% url 'myapp:home' %}">Home</a></li>
+          <li><a href="{% url 'myapp:services' %}">Services</a></li>
+          <li><a href="{% url 'myapp:about' %}">About</a></li>
+          <li><a href="{% url 'myapp:contact' %}">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- <a href="" id="login-register-button">Login / Register</a>  -->
+    </div>
+  </header>
+<!-- end of nav-bar -->
+
+
+
+<!-- start of hero -->
+<section class="hero-slider hero-style">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="slide-inner slide-bg-image" data-background="static/new/home/img/slider1.jpeg">
+          <div class="container">
+            <div data-swiper-parallax="300" class="slide-title">
+              <h2>NumberSniff
+                  Services</h2>
+            </div>
+            <div data-swiper-parallax="400" class="slide-text">
+              <p>Absolutely there has a soultion to your digital problems</p>
+            </div>
+            <div class="clearfix"></div>
+            <div data-swiper-parallax="500" class="slide-btns">
+              <a href="{% url 'myapp:contact' %}" class="theme-btn-s2">Contact now</a>
+              
+            </div>
+          </div>
+        </div>
+        <!-- end slide-inner -->
+      </div>
+      <!-- end swiper-slide -->
+
+    <div class="swiper-slide">
+        <div class="slide-inner slide-bg-image" data-background="static/new/home/img/slider2.jpeg">
+          <div class="container">
+            <div data-swiper-parallax="300" class="slide-title">
+              <h2>NumberSniff
+                  Services</h2>
+            </div>
+            <div data-swiper-parallax="400" class="slide-text">
+              <p>Absolutely there has a soultion to your digital problems</p>
+            </div>
+            <div class="clearfix"></div>
+            <div data-swiper-parallax="500" class="slide-btns">
+              <a href="{% url 'myapp:contact' %}" class="theme-btn-s2">Contact now</a>
+              
+            </div>
+          </div>
+        </div>
+        <!-- end slide-inner -->
+      </div>
+      <!-- end swiper-slide -->
+    </div>
+    <!-- end swiper-wrapper -->
+
+    <!-- swipper controls -->
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+<!-- end of hero slider -->
+
+
+
+
+<!-- start of letest news -->
+        <section id="latest-news">
+                <div class="flex">
+                    <h5>Latest News</h5>
+                    <div id="latest-news-container">
+                        <div class="latest-news-item">
+                            <span class="badge new">New</span>
+                            <span class="latest-news-text">We build trustworthy scalable cloud applications IoT and distributed data infrastructures for companies</span>
+                        </div>
+                    </div>
+                </div>
+        </section>
+<!-- end of letest news -->
+
+
+
+
+
+
+<!-- Services Start  -->
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 class="text-primary">INDUSTRIAL INTERNET OF THINGS(IIOT)</h1>
+          <hr class="bg-primary">
+        </div>
+        <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2">
+                <div class=" wirelessdiv " data-aos="fade-left " data-aos-delay="100">
+                    <img class="img-thumbnail" src='static/new/home/img/iot6.svg' />
+                </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1  p-3 mb-5 bg-white rounded" data-aos="fade-right" data-aos-delay="100">
+                <h5>Planning and designing for the arrival of the Internet of Things , field application and indoor/lab application IoT, wirless senosr.</h5>
+                <p>
+              We help you read you Industrial IOT Data in any lab or any field environment. We store your data on your Cloud, so you are the sole owner of your data. We help you visualize your data in reports and dashboards. Our engineers will help you generate meaningful, profitable and secure insights from you data using lots of machine learning and artificial intelligence.
+                </p>
+                <p class="">
+              Hundreds or thoudands of nodes, wireless sensors integration with network, data access on cloud that monitor and record the physical conditions of the environment and forward the collected data to cloud.
+                </p>
+            </div>
+        </div>
+    </div>
+</section><!-- IIOT -->
+
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 class="text-primary">ARTIFICIAL INTELLIGENCE(AI)</h1>
+          <hr class="bg-primary">
+        </div>
+
+    <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1">
+              <div class=" wirelessdiv " data-aos="fade-left " data-aos-delay="100">
+                  <img  class="img-thumbnail" src='static/new/home/img/d.png' />
+              </div>
+          </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1  p-3 mb-5 bg-white rounded" data-aos="fade-right" data-aos-delay="100">
+            <h5>NumberSniff provides you wireless sersors network and Data acceleration with amazing cloud platform AWS</h5>
+            <p>
+              We help you read you Industrial IOT Data in any lab or any field environment. We store your data on your Cloud, so you are the sole owner of your data. We help you visualize your data in reports and dashboards. Our engineers will help you generate meaningful, profitable and secure insights from you data using lots of machine learning and artificial intelligence.
+            </p>
+            <p class="">
+              Hundreds or thoudands of nodes, wireless sensors integration with network, data access on cloud that monitor and record the physical conditions of the environment and forward the collected data to cloud.
+            </p>
+        </div>
+         </div>
+    </div>
+</section><!-- ARTIFICIAL INTELLIGENCE AI -->
+
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 class="text-primary">MACHINE LEARNING</h1>
+          <hr class="bg-primary">
+        </div>
+    <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2">
+              <div class=" wirelessdiv " data-aos="fade-left " data-aos-delay="100">
+                          <img class="img-thumbnail" src='static/new/home/img/mac1.jpeg' />
+              </div>
+          </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1  p-3 mb-5 bg-white rounded" data-aos="fade-right" data-aos-delay="100">
+            <h5>NumberSniff provides you wireless sersors network and Data acceleration with amazing cloud platform AWS</h5>
+            <p>
+              We help you read you Industrial IOT Data in any lab or any field environment. We store your data on your Cloud, so you are the sole owner of your data. We help you visualize your data in reports and dashboards. Our engineers will help you generate meaningful, profitable and secure insights from you data using lots of machine learning and artificial intelligence.
+            </p>
+            <p class="">
+              Hundreds or thoudands of nodes, wireless sensors integration with network, data access on cloud that monitor and record the physical conditions of the environment and forward the collected data to cloud.
+            </p>
+        </div>
+    </div>
+            </div>
+
+</section><!--  MACHINE LEARNING -->
+
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 class="text-primary">CLOUD COMPUTING</h1>
+          <hr class="bg-primary">
+        </div>
+    <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1">
+              <div class=" wirelessdiv " data-aos="fade-left " data-aos-delay="100">
+                  <img class="img-thumbnail" src='static/new/home/img/cloud1.png' />              </div>
+          </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1  p-3 mb-5 bg-white rounded" data-aos="fade-right" data-aos-delay="100">
+            <h5>NumberSniff provides you wireless sersors network and Data acceleration with amazing cloud platform AWS</h5>
+            <p>
+              We help you read you Industrial IOT Data in any lab or any field environment. We store your data on your Cloud, so you are the sole owner of your data. We help you visualize your data in reports and dashboards. Our engineers will help you generate meaningful, profitable and secure insights from you data using lots of machine learning and artificial intelligence.
+            </p>
+            <p class="">
+              Hundreds or thoudands of nodes, wireless sensors integration with network, data access on cloud that monitor and record the physical conditions of the environment and forward the collected data to cloud.
+            </p>
+        </div>
+    </div>
+            </div>
+
+</section><!--  CLOUD COMPUTING -->
+
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 class="text-primary">CLOUD COMPUTING WITH AWS & AZURE</h1>
+          <hr class="bg-primary">
+        </div>
+    <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2">
+              <div class=" wirelessdiv " data-aos="fade-left " data-aos-delay="100">
+                  <img  class="img-thumbnail" src='static/new/home/img/cloud4.png' />
+              </div>
+          </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1  p-3 mb-5 bg-white rounded" data-aos="fade-right" data-aos-delay="100">
+            <h5>NumberSniff provides you wireless sersors network and Data acceleration with amazing cloud platform AWS</h5>
+            <p>
+              We help you read you Industrial IOT Data in any lab or any field environment. We store your data on your Cloud, so you are the sole owner of your data. We help you visualize your data in reports and dashboards. Our engineers will help you generate meaningful, profitable and secure insights from you data using lots of machine learning and artificial intelligence.
+            </p>
+            <p class="">
+              Hundreds or thoudands of nodes, wireless sensors integration with network, data access on cloud that monitor and record the physical conditions of the environment and forward the collected data to cloud.
+            </p>
+        </div>
+    </div>
+    </div>
+</section><!--  CLOUD COMPUTING WITH AWS & AZURE -->
+
+<section id="about" class="about">
+    <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <h1 class="text-primary">DATA ANALYSIS AND VISUALIZATION</h1>
+          <hr class="bg-primary">
+        </div>
+    <div class="row">
+        <div class="col-lg-6 order-2 order-lg-1">
+              <div class=" wirelessdiv " data-aos="fade-left " data-aos-delay="100">
+                  <img  class="img-thumbnail" src='static/new/home/img/cloud3.png' />              </div>
+          </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1  p-3 mb-5 bg-white rounded" data-aos="fade-right" data-aos-delay="100">
+            <h5>NumberSniff provides you wireless sersors network and Data acceleration with amazing cloud platform AWS</h5>
+            <p>
+              We help you read you Industrial IOT Data in any lab or any field environment. We store your data on your Cloud, so you are the sole owner of your data. We help you visualize your data in reports and dashboards. Our engineers will help you generate meaningful, profitable and secure insights from you data using lots of machine learning and artificial intelligence.
+            </p>
+            <p class="">
+              Hundreds or thoudands of nodes, wireless sensors integration with network, data access on cloud that monitor and record the physical conditions of the environment and forward the collected data to cloud.
+            </p>
+        </div>
+    </div>
+    </div>
+</section><!--  DATA ANALYSIS AND VISUALIZATION  -->
+
+<!-- Services End  -->
+
+
+
+
+
+
+<!-- start of footer -->
+<footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                           <!-- <i class="fas fa-map-marker-alt"></i>
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>Quetta Balochistan</span>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="far fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>aorangzaib@numbersniff.com</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                          <!--   <i class="fas fa-phone"></i>
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>+92 312 3689922</span>
+                            </div>-->
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a   href="{% url 'myapp:home' %}"><img src="static/new/home/img/numbersniff.png"  class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>We build trustworthy scalable cloud applications IoT and distributed data infrastructures for companies</p>
+                            </div>
+                            <div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="https://www.facebook.com/Number-Sniff-109266448116975"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                
+                                <a href="https://www.instagram.com/numbersniff/"><i class="fab fa-instagram instagram-bg"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Useful Links</h3>
+                            </div>
+                            <ul>
+                                <li><a href="{% url 'myapp:home' %}">Home</a></li>
+                                <li><a href="{% url 'myapp:contact' %}">Contact us</a></li>
+                                <li><a href="{% url 'myapp:services' %}">Our Services</a></li>
+                                
+                               
+
+                                <li><a href="{% url 'myapp:about' %}">About us</a></li>
+                                
+                             
+                                <li><a href="{% url 'myapp:contact' %}">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Subscribe</h3>
+                            </div>
+                            <div class="footer-text mb-25">
+                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                            </div>
+                            <div class="subscribe-form">
+
+                                <form action="#"  method="POST">
+                                    {% csrf_token %}
+                                    <input type="email" name="Sub_email" id="email" placeholder="Email Address">
+                                    <button id="submit" value="Subscribers" type="submit"><i class="fab fa-telegram-plane"></i>
+                                    </button>
+                                    {% if messages %}
+                                    {% for messages in messages %}
+                                    <div class="alter alter-success">
+                                        <p>{{messages}}</p>
+                                    </div>
+                                    {%endfor%}
+                                    {%endif%}
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy;  <a href="">numbersniff</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="{% url 'myapp:home' %}">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="{% url 'myapp:contact' %}">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<!-- end of footer -->
+
+
+
+
+
+
+<!-- partial -->
+<!--  navbar js start -->
+        <script>
+            document.getElementById('nav-toggle').addEventListener('click', function () {
+                let navMenu = document.getElementById('nav-menu-container');
+                navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+            });
+        </script>
+<!--  navbar js ends -->
+
+
+<!--  hero slider js start -->
+   <script>
+
+          // HERO SLIDER
+    var menu = [];
+    jQuery('.swiper-slide').each( function(index){
+        menu.push( jQuery(this).find('.slide-inner').attr("data-text") );
+    });
+    var interleaveOffset = 0.5;
+    var swiperOptions = {
+        loop: true,
+        speed: 1000,
+        parallax: true,
+        autoplay: {
+            delay: 6500,
+            disableOnInteraction: false,
+        },
+        watchSlidesProgress: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        on: {
+            progress: function() {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    var slideProgress = swiper.slides[i].progress;
+                    var innerOffset = swiper.width * interleaveOffset;
+                    var innerTranslate = slideProgress * innerOffset;
+                    swiper.slides[i].querySelector(".slide-inner").style.transform =
+                    "translate3d(" + innerTranslate + "px, 0, 0)";
+                }
+            },
+
+            touchStart: function() {
+              var swiper = this;
+              for (var i = 0; i < swiper.slides.length; i++) {
+                swiper.slides[i].style.transition = "";
+              }
+            },
+
+            setTransition: function(speed) {
+                var swiper = this;
+                for (var i = 0; i < swiper.slides.length; i++) {
+                    swiper.slides[i].style.transition = speed + "ms";
+                    swiper.slides[i].querySelector(".slide-inner").style.transition =
+                    speed + "ms";
+                }
+            }
+        }
+    };
+
+    var swiper = new Swiper(".swiper-container", swiperOptions);
+
+    // DATA BACKGROUND IMAGE
+    var sliderBgSetting = $(".slide-bg-image");
+    sliderBgSetting.each(function(indx){
+        if ($(this).attr("data-background")){
+            $(this).css("background-image", "url(" + $(this).data("background") + ")");
+        }
+    });
+
+
+   </script>
+<!--  hero slider js ends -->
+
+
+
+
+
+
+
+
+</body>
+
+  <!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.3.1.slim.min.js'></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+  <script src="./script.js"></script>
+
+</html>
